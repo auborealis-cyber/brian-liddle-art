@@ -1,0 +1,12 @@
+
+
+.hero{
+    background-image: url(/img-brianliddle-art/BLiddle\ Business\ Card.pdf);
+}
+
+.grid-container{
+    display: grid;
+    column-gap: 50px;
+    row-gap: 75px;
+    align-content: space-evenly;
+}
