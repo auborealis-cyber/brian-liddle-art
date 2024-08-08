@@ -1,12 +1,63 @@
-
-
-.hero{
-    background-image: url(/img-brianliddle-art/BLiddle\ Business\ Card.pdf);
+body{
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
 }
 
-.grid-container{
+header{
+    background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+}
+
+.hero {
+  color: aliceblue;
+  height: auto;
+	width: 100%;
+    max-width: 1000px;
+	margin:auto;
+	padding: 50px 50px 50px 50px;
+  
+}
+
+.grid{
     display: grid;
     column-gap: 50px;
     row-gap: 75px;
     align-content: space-evenly;
+}
+
+.grid-2-col{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 75px;
+    padding: 15px;
+}
+
+.card-header img{
+    display: block;
+    width: 100%;
+}
+
+.card-header img:hover{
+    transform: scale(1.2);
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    margin: 30px 0;
+    text-align: center;
+}
+
+button a{
+    text-decoration: none;
+    color: #9B3830;
+}
+
+button a:hover{
+    text-decoration: underline;
+    color: navy;
+}
+
+
+@media(max-width:650px){
+    .grid-2-col{
+        justify-content: space-between;    
+    }
 }
